@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+  <div class='wrapper'>
+    <div class="content">
+      <form id='form'>
+        <input id='input' type='text' placeholder='Enter your country' required />
+        <button>Search</button>
+      </form>
+
+      <!-- weather info -->
+
+      <div class='main' id="content">
+        <div class="weather">
+          <div>
+            <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="">
+          </div>
+          <div>
+            <h1>22℃</h1>
+            <h4>Nukus</h4>
+            <h5>Clear</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='./script.js'></script>
+</body>
+
+</html>
